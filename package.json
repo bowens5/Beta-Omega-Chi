@@ -2,9 +2,9 @@
   "devDependencies": {
     "gh-pages": "^6.3.0"
   },
-  "homepage": "https://<your-username>.github.io/<repo-name>",
+  "homepage": "https://bowens5.github.io/Beta-Omega-Chi",
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "predeploy": "npm --prefix react-app run build && rm -rf docs && cp -r react-app/build docs",
+    "deploy": "gh-pages -d docs"
   }
 }
