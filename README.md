@@ -1,12 +1,29 @@
 # Beta-Omega-Chi Website
 
-This repository contains the bare bones of a simple static website for a social club.
-It now includes a lightweight login feature and personal calendar powered by
-JavaScript and `localStorage`.
+This repository now contains a React implementation of the Social Club site. The
+original static HTML files remain for reference, but the main app is located in
+the `react-app` folder and was bootstrapped with Create React App.
 
-## Files
-- `index.html` - Main HTML page.
-- `style.css` - Basic styling.
-- `script.js` - Handles login logic and a simple event calendar.
+The application provides a login page and a simple personal calendar powered by
+`localStorage`.
 
-Open `index.html` in your browser to view the site.
+## Running the React app
+
+```bash
+cd react-app
+npm start
+```
+
+This will start the development server and open the site at
+`http://localhost:3000`.
+
+## Legacy files
+
+The original static files are kept in the repository:
+- `index.html`
+- `login.html`
+- `style.css`
+- `script.js`
+
+These are no longer used by the React app but demonstrate the previous static
+implementation.
