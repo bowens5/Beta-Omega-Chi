@@ -45,9 +45,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
     loginForm.addEventListener('submit', (e) => {
         e.preventDefault();
-        const username = document.getElementById('username').value.trim();
-        if (username) {
-            localStorage.setItem('loggedInUser', username);
+        const password = document.getElementById('password').value.trim();
+        if (password) {
+            localStorage.setItem('loggedInUser', password);
             loginForm.reset();
             checkLogin();
         }
