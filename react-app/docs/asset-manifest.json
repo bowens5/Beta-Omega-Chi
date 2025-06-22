@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Beta-Omega-Chi/static/css/main.8a9df6c6.css",
+    "main.js": "/Beta-Omega-Chi/static/js/main.efe53d5e.js",
+    "index.html": "/Beta-Omega-Chi/index.html",
+    "main.8a9df6c6.css.map": "/Beta-Omega-Chi/static/css/main.8a9df6c6.css.map",
+    "main.efe53d5e.js.map": "/Beta-Omega-Chi/static/js/main.efe53d5e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8a9df6c6.css",
+    "static/js/main.efe53d5e.js"
+  ]
+}
